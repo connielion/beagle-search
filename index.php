@@ -21,9 +21,10 @@
             <div class="searchContainer">
                 <!--send data to search.php via GET-->
                 <form action="search.php" method="GET">
+                    <!--searchBox-->
                     <input type="text" class="searchBox" name="term" placeholder="Search something...">
-
-                    <input type="submit" class="searchBtn" value="Search">
+                    <!--searchBtn-->
+                    <input type="submit" class="searchBtn" value="Go Sniff">
                 </form>
 
             </div>
@@ -31,4 +32,4 @@
     </div>
 </body>
 
-</html> 
+</html>
