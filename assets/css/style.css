@@ -11,10 +11,16 @@ body {
   height: 100%;
 }
 
+/* index.php styling */
+
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  background: url('../../img/bg.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 .indexPage {
@@ -38,7 +44,29 @@ body {
   align-items: center;
 }
 
+.searchContainer .searchBox {
+  border-radius: 22px;
+  font-size: 18px;
+  color: #000;
+  width: 70%;
+  position: relative;
+  padding-inline-start: 20px;
+  opacity: 0.5;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+/* change placeholder color in searchbar */
+
+.searchContainer .searchBox::placeholder {
+  color: #555;
+  opacity: 1;
+}
+
 .searchContainer .searchBtn {
   border-radius: 20px;
-  margin: 5px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
 }
+
+/* END index.php styling */
